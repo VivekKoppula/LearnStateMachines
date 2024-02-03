@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppccelerateViewStateMachine", "AppccelerateViewStateMachine\AppccelerateViewStateMachine.csproj", "{2268207A-7B96-4C6F-8DDF-B2725937371D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppccelerateViewStateMachine.Tests", "AppccelerateViewStateMachine.Tests\AppccelerateViewStateMachine.Tests.csproj", "{04D8B5A1-265B-4094-99DC-48D62D03BA8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2268207A-7B96-4C6F-8DDF-B2725937371D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2268207A-7B96-4C6F-8DDF-B2725937371D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2268207A-7B96-4C6F-8DDF-B2725937371D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2268207A-7B96-4C6F-8DDF-B2725937371D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D8B5A1-265B-4094-99DC-48D62D03BA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D8B5A1-265B-4094-99DC-48D62D03BA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D8B5A1-265B-4094-99DC-48D62D03BA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D8B5A1-265B-4094-99DC-48D62D03BA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F1FC527-97D0-4426-8708-7ACB4A6B377B}
+	EndGlobalSection
+EndGlobal

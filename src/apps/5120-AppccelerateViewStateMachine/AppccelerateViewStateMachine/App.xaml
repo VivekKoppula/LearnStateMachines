@@ -1,0 +1,20 @@
+﻿<Application x:Class="AppccelerateStateMachine.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:localviews="clr-namespace:AppccelerateStateMachine.Views"
+                          xmlns:localviewmodels="clr-namespace:AppccelerateViewStateMachine.ViewModels"
+
+             
+             >
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type localviewmodels:UserControl1ViewModel}">
+            <localviews:UserControl1/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type localviewmodels:UserControl2ViewModel}">
+            <localviews:UserControl2/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type localviewmodels:UserControl3ViewModel}">
+            <localviews:UserControl3/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>
